@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Header (params) {
-
+function Header(params) {
   return (
     <header>
       <h1>Site</h1>
@@ -9,10 +8,13 @@ function Header (params) {
         <ul>
           {/* Використовуємо Link замість а  з пропом to замість href */}
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
           <li>
             <Link to="/login">Login page</Link>
+          </li>
+          <li>
+            <Link to="/clicker">Clicker</Link>
           </li>
         </ul>
       </nav>
