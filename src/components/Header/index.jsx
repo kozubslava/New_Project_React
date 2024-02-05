@@ -16,6 +16,9 @@ function Header(params) {
           <li>
             <Link to="/clicker">Clicker</Link>
           </li>
+          <li>
+            <Link to="/hardState">HardState</Link>
+          </li>
         </ul>
       </nav>
     </header>
